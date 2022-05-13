@@ -13,30 +13,16 @@ body {
 
 .container {
     border: 4px solid blue;
-    width: 50%;
-    height: 55%;
-    display: block;
-    position: relative;
-    padding: 2rem 10px 10px 10px;
-    margin: 2rem auto auto auto;
-    /* border: 2px solid blue;
-    width: 750px;
-    height: 250px;
-    padding: 2rem 10px 10px 10px;
-    margin: 2rem auto auto auto;
-    display: block;
-    position: relative; */
+    width: 50rem;
+    height: 20rem;
+    padding: 2rem;
+    margin: 12rem auto auto auto;
 }
 
 .container img {
-    display: flex;
+    position: relative;
+    float: left;
 
-    flex-direction: start;
-    padding: 10px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%; 
 }
 
 h1 {
@@ -48,5 +34,5 @@ h1 {
   }
 
 p {
-    padding: 0px 10px;
+    padding: 10px;
 }
